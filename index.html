@@ -1,21 +1,26 @@
 <!doctype html>
 <html>
+
 <head>
-    <title>First Assingment</title>
-    <link rel="stylesheet" href="css/style.css">
+    <title>Oxford University</title>
     <link rel="stylesheet" href="css/960_12_col.css">
     <link rel="stylesheet" href="css/960_24_col.css">
+    <link rel="stylesheet" href="css/style.css">
+    <!--Write your css file below the 960 grid css-->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css" integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt"
+        crossorigin="anonymous">
+
     <link href='https://fonts.googleapis.com/css?family=Cormorant Upright' rel='stylesheet'>
     <!--Google font links-->
+    <link href='https://fonts.googleapis.com/css?family=Lato' rel='stylesheet'>
     <link href='https://fonts.googleapis.com/css?family=Croissant One' rel='stylesheet'>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <!--Icon links-->
 </head>
 
 <body>
-    <header>
-
-        <ul class="sticky">
+    <header class="sticky">
+        <ul>
             <!--To make the header stick on top of the window-->
             <li>
 
@@ -30,8 +35,15 @@
             <li>
                 <a href=#> News </a>
             </li>
+            <li>
+                <img id="oxford-icon" src="image/oxford-icon.png">
+            </li>
         </ul>
     </header>
+    <hr>
+    <div class="hero">
+        <img id="hero-image" src="image/school1.jpg">
+    </div>
     <div class="container_12 ">
         <div class="grid_4 module-one">
             <h1 class="header1">About</h1>
@@ -45,7 +57,7 @@
             <h1 class="header1">History</h1>
             <img src="image/oxford.jpg" height="150px">
             <p class="pstyle">
-                The oldest university in the English-speaking world, Oxford is a unique and historic institution. There is no clear date
+                The oldest university in the English speaking world, Oxford is a unique and historic institution. There is no clear date
                 of foundation, but teaching existed at Oxford in some form in 1096 and developed rapidly from 1167, when
                 Henry II banned English students from attending the University of Paris.
             </p>
@@ -62,7 +74,7 @@
     <hr>
     <div class="why">
         <div class="container_12">
-            <div class=" grid_8 ">
+            <div class=" grid_6 ">
                 <h1 class="study">
                     Why you should study here?
                 </h1>
@@ -81,44 +93,32 @@
         </div>
     </div>
     <footer>
-        <div class="container_24">
-            <div class="grid_6 module2 f1">
-                <img class="img_icon" src="image/phonw.png">
-
-                <p id="cont">(+91) 7022089877</p>
-            </div>
-            <div class="grid_6 module2 f1">
-                <img class="img_icon" src="image/mail.png">
-                <a href="#" class="contact">oxford@gmail.com</a>
+        <div class="container_12">
+            <div class="grid_4 ">
+                <i class="fas fa-phone  phone-icon"></i>
+                <p id="customer">Customer care (+91 702-2089-877)</p>
+                <p id="timing">Mon-Sat 9AM to 9PM</p>
             </div>
 
-
-            <div class="grid_8 module2 f1">
-                <h3 name="contact">
-                    <i>Keep In Touch with us</i>
-                </h3>
-                <div class="icon-bar">
-                    <a href="#" class="facebook">
-                        <i class="fa fa-facebook"></i>
-                    </a>
-                    <a href="#" class="twitter">
-                        <i class="fa fa-twitter"></i>
-                    </a>
-                    <a href="#" class="google">
-                        <i class="fa fa-google"></i>
-                    </a>
-                    <a href="#" class="linkedin">
-                        <i class="fa fa-linkedin"></i>
-                    </a>
-                    <a href="#" class="youtube">
-                        <i class="fa fa-youtube"></i>
-                    </a>
-
-                </div>
-
+            <div class="grid_4 connect-social">
+                <p id="social-header">Connect with us</p>
+                <ul class="socialmedia-icon">
+                    <li id="fbicon">
+                        <i class="fab fa-facebook "></i>
+                    </li>
+                    <li>
+                        <i class="fab fa-twitter-square"></i>
+                    </li>
+                    <li>
+                        <i class="fab fa-google-plus-square"></i>
+                    </li>
+                </ul>
             </div>
         </div>
     </footer>
+
+
+
 </body>
 
 </html>
